@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="19px" viewBox="0 0 18 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 64 (101010) - https://sketch.com -->
+    <title>A50A4717-98E5-4B3C-9996-6DDD1CC3022A</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="151.139052%" y1="26.7945844%" x2="14.0531994%" y2="62.5%" id="linearGradient-1">
+            <stop stop-color="#9DA7B6" offset="0%"></stop>
+            <stop stop-color="#D4D7DB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="151.139052%" y1="-14.4594878%" x2="14.0531994%" y2="84.7222222%" id="linearGradient-2">
+            <stop stop-color="#9DA7B6" offset="0%"></stop>
+            <stop stop-color="#D4D7DB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4-List-View" transform="translate(-32.000000, -1027.000000)">
+            <g id="lamp-(1)-copy" transform="translate(32.000000, 1027.000000)">
+                <path d="M6,16 C6.01652075,17.6570244 7.35559183,19 9,19 C10.6444082,19 11.9834793,17.6570244 12,16 L6,16 Z" id="Path" fill="url(#linearGradient-1)"></path>
+                <path d="M8.34453292,0 L8.34453292,4.19348562 L6.15789474,4.19348562 L6.15789474,7.27377069 C2.70738493,7.61914607 0,10.6614412 0,14.3516173 L0,15 L18,15 L18,14.3516173 C18,10.6614412 15.2926151,7.61914607 11.8421053,7.27377069 L11.8421053,4.19348562 L9.65546708,4.19348562 L9.65546708,0 L8.34453292,0 Z" id="Path" fill="url(#linearGradient-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

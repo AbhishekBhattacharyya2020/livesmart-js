@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="17px" viewBox="0 0 19 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 64 (101010) - https://sketch.com -->
+    <title>00669143-6203-4CF0-9FBF-79104D66C097</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="127.543713%" y1="17.9659637%" x2="14.0531994%" y2="73.4072022%" id="linearGradient-1">
+            <stop stop-color="#28EBB5" offset="0%"></stop>
+            <stop stop-color="#05BDFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="127.543713%" y1="42.3969184%" x2="14.0531994%" y2="55.5555556%" id="linearGradient-2">
+            <stop stop-color="#28EBB5" offset="0%"></stop>
+            <stop stop-color="#05BDFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="7-My-rooms" transform="translate(-313.000000, -257.000000)">
+            <g id="graph-line-screen" transform="translate(313.000000, 257.000000)">
+                <path d="M17.8438539,0 L1.15697762,0 C0.520184457,0 0,0.47331664 0,1.05030006 L0,11.9496999 C0,12.5259623 0.520184457,13 1.15697762,13 L17.8438539,13 C18.4798155,13 19,12.5259623 19,11.9496999 L19,1.05030006 C19,0.47331664 18.4798155,0 17.8438539,0 Z" id="Shape" fill="url(#linearGradient-1)"></path>
+                <polygon id="Path" fill="url(#linearGradient-2)" points="7.26396189 14 5 17 14 17 11.7360381 14"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,10 @@
+<nav class="nav">
+    <div class="main-views">
+        <a routerLink="/dashboard" [ngClass]="{'prevent-click':router=='dashboard/grid-view'||router=='dashboard/list-view'}" routerLinkActive="active">My Devices</a>
+        <a routerLink="/rooms" routerLinkActive="active">My Rooms</a>
+    </div>
+    <div class="my-devices-views">
+        <a routerLink="/dashboard/grid-view" title="Grid View"><img *ngIf="router=='dashboard/grid-view'||router=='dashboard'" src="../../assets/svg/app-nav/grid-view-dark.svg" alt="Grid View"><img *ngIf="router=='dashboard/list-view'" src="../../assets/svg/app-nav/grid-view.svg" alt="Grid View"></a>
+        <a routerLink="/dashboard/list-view" title="List View"><img *ngIf="router=='dashboard/list-view'||router=='dashboard'" src="../../assets/svg/app-nav/list-view-dark.svg" alt="List View"><img *ngIf="router=='dashboard/grid-view'" src="../../assets/svg/app-nav/list-view.svg" alt="List View"></a>
+    </div>
+</nav>

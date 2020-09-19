@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 64 (101010) - https://sketch.com -->
+    <title>3DB9780A-888C-4FFB-9647-FCB599C0DE40</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="55.1025391%" y1="0%" x2="55.1025391%" y2="155.363137%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#E8E9EC" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0.0252167829,7.35580908 C-0.160357111,5.40745708 0.692767318,3.64262727 2.10776826,2.52138211 C2.65933511,2.08394567 3.48410797,2.45853205 3.48410797,3.14988276 C3.48410797,3.40379702 3.36039204,3.63759926 3.15935366,3.79598142 C2.15673915,4.59292024 1.55362399,5.84992153 1.70053666,7.23765096 C1.89126538,9.04521881 3.37585654,10.5083683 5.22644064,10.7094885 C7.64147868,10.9734588 9.69310118,9.1281809 9.69310118,6.82535453 C9.69310118,5.60354928 9.11318276,4.50995816 8.20851002,3.79346742 C8.00747164,3.63508526 7.88633313,3.40128302 7.88633313,3.14988276 C7.88633313,2.46607406 8.69821891,2.07891766 9.24463093,2.5062981 C10.5384934,3.52446914 11.3684211,5.08063674 11.3684211,6.82535453 C11.3684211,10.0156238 8.58996747,12.5874485 5.26767929,12.3536462 C2.52015469,12.165096 0.280380887,10.0307078 0.0252167829,7.35580908 Z M5.68264313,0.0526315789 C5.2187084,0.0526315789 4.8449832,0.419675956 4.8449832,0.869682418 L4.8449832,4.63314428 C4.8449832,5.08566475 5.22128581,5.45019512 5.68264313,5.45019512 C6.14400045,5.45019512 6.52030307,5.08315075 6.52030307,4.63314428 L6.52030307,0.869682418 C6.52030307,0.419675956 6.14657787,0.0526315789 5.68264313,0.0526315789 Z" id="path-2"></path>
+        <filter x="-8.8%" y="-8.1%" width="117.6%" height="116.2%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.310914855   0 0 0 0 0.310914855   0 0 0 0 0.310914855  0 0 0 0.198016827 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3-Grid-View" transform="translate(-236.000000, -219.000000)">
+            <g id="Group-Copy-11" transform="translate(236.000000, 219.000000)">
+                <circle id="Oval" fill="#EBEBF0" opacity="0.3" cx="18" cy="18" r="18"></circle>
+                <circle id="Oval" stroke="#E8E9EF" fill="url(#linearGradient-1)" opacity="0.760997954" cx="18" cy="18" r="14.2105263"></circle>
+                <g id="power-copy" transform="translate(12.315789, 11.315789)" fill-rule="nonzero" opacity="0.900000036">
+                    <g id="Shape">
+                        <use fill-opacity="0.345307037" fill="#BBBBBB" xlink:href="#path-2"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

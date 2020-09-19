@@ -1,0 +1,53 @@
+.nav {
+    clear: both;
+    height: 54px;
+    background: white !important;
+}
+
+.main-views {
+    float: left;
+}
+
+.my-devices-views {
+    float: right;
+}
+
+.active-link {
+    color: red
+}
+
+
+/* Add a black background color to the top navigation */
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.nav a {
+    float: left;
+    display: block;
+    color: #9da7b6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    border-bottom: 3px solid transparent;
+}
+
+.nav a:hover {
+    color: #05bdff;
+    border-bottom: 2px solid #05bdff;
+}
+
+.nav a.active {
+    color: #05bdff;
+    border-bottom: 2px solid #05bdff;
+}
+
+.prevent-click {
+    pointer-events: none;
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="328px" height="181px" viewBox="0 0 328 181" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 64 (101010) - https://sketch.com -->
+    <title>7BB97BAD-A6A1-4E17-939E-944C639FF565</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M4,0 L324,0 C326.209139,-4.05812251e-16 328,1.790861 328,4 L328,177 C328,179.209139 326.209139,181 324,181 L4,181 C1.790861,181 2.705415e-16,179.209139 0,177 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="path-1"></path>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="39.5580414%" id="linearGradient-3">
+            <stop stop-color="#E9E9E9" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#EAEAEA" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="37.7648102%" y1="46.2127595%" x2="0%" y2="53.833652%" id="linearGradient-5">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#F5F5F5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4-List-View" transform="translate(-16.000000, -1167.000000)">
+            <g id="Group-4" transform="translate(16.000000, 1167.000000)">
+                <g id="Group-9">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill-opacity="0.0348557692" fill="#5D5D5D" xlink:href="#path-1"></use>
+                    <g mask="url(#mask-2)">
+                        <g transform="translate(0.000000, -1.000000)">
+                            <polygon id="Path-3" fill="url(#linearGradient-3)" points="0 86 186 1 0 1"></polygon>
+                            <polygon id="Path-4" fill="url(#linearGradient-4)" points="0 85.4726563 185.366812 0 330 0 328 149"></polygon>
+                            <polygon id="Path-5" fill="url(#linearGradient-5)" points="0 248 -9.17555962e-14 65 326 248"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

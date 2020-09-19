@@ -1,0 +1,12 @@
+<div class="profile-bar">
+    <div class="select-profile">
+        <form [formGroup]="profileForm">
+            <select formControlName="profileControl">
+      <option [value]="profile" *ngFor="let profile of profiles"> {{profile}}</option>
+    </select>
+        </form>
+    </div>
+    <div class="notifications">
+        <a title="Notifications"><img src="../../assets/svg/profile-bar/notifications.svg" alt="Notifications"></a>
+    </div>
+</div>

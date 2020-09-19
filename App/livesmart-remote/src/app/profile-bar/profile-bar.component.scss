@@ -1,0 +1,27 @@
+.select-profile {
+    float: left;
+}
+
+.notifications {
+    float: right;
+}
+
+.profile-bar {
+    clear: both;
+    height: 30px;
+    padding: 16px 16px 16px 10px;
+    background: #fff;
+}
+
+.select-profile {
+    select {
+        border: 1px solid transparent;
+        font-size: 14px;
+        font-weight: 700;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 0.08px;
+        color: var(--black);
+    }
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="19px" viewBox="0 0 21 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 64 (101010) - https://sketch.com -->
+    <title>DC0D97C8-98B6-4CB1-A289-2DF887D46A18</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="127.543713%" y1="34.4835069%" x2="14.0531994%" y2="61.3378685%" id="linearGradient-1">
+            <stop stop-color="#28EBB5" offset="0%"></stop>
+            <stop stop-color="#05BDFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4-List-View" transform="translate(-32.000000, -230.000000)">
+            <g id="Group-2" transform="translate(32.000000, 230.000000)">
+                <path d="M20,0 C20.5522847,-1.01453063e-16 21,0.44771525 21,1 L21,8 C21,8.55228475 20.5522847,9 20,9 L20,9.6 C20,9.8209139 19.8209139,10 19.6,10 L1.4,10 C1.1790861,10 1,9.8209139 1,9.6 L1,9 C0.44771525,9 6.76353751e-17,8.55228475 0,8 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 L20,0 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+                <line x1="6.5" y1="12.5" x2="4.5" y2="17.3684211" id="Line-3" stroke="#CADCFD" stroke-width="1.2" stroke-linecap="square"></line>
+                <line x1="16.5" y1="12.5" x2="14.5" y2="17.3684211" id="Line-3-Copy" stroke="#CADCFD" stroke-width="1.2" stroke-linecap="square" transform="translate(15.500000, 15.000000) scale(-1, 1) translate(-15.500000, -15.000000) "></line>
+                <line x1="10.5" y1="12.5" x2="10.5" y2="17.3684211" id="Line" stroke="#CADCFD" stroke-width="1.2" stroke-linecap="square"></line>
+                <rect id="Rectangle" fill="#FFFFFF" x="2" y="5" width="17" height="2" rx="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

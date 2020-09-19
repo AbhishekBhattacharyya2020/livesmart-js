@@ -1,0 +1,38 @@
+.container {
+    background-image: url('../../assets/svg/taskbar/footer-base.svg');
+    height: 77px;
+    position: relative;
+    width: 100%;
+}
+
+.section {
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: -24px;
+}
+
+.section-name-active {
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #05bdff;
+    position: relative;
+    top: 10px;
+}
+
+.section-name {
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #9da7b6;
+    position: relative;
+    top: 10px;
+}

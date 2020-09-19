@@ -1,0 +1,14 @@
+<div class="my-devices">
+    <div class="total-devices">
+        <span class="total-devices-text">{{(totalDevices)}} Devices</span>
+    </div>
+    <router-outlet></router-outlet>
+    <div [ngClass]="deviceListClass">
+        <ul class="device-list">
+            <li *ngFor="let deviceList of myDevices; index as i">
+                <h1 class="device-count">{{deviceList.type}}({{deviceCounts[i]}})<span><a>View All</a></span></h1>
+                <app-device [code]="deviceList.code"></app-device>
+            </li>
+        </ul>
+    </div>
+</div>

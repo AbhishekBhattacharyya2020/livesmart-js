@@ -1,0 +1,29 @@
+<div [ngClass]="deviceClass">
+    <ul class="device-group">
+        <li #devicesByType *ngFor="let device of devices">
+            <div *ngIf="code===device.type" [ngClass]="code">
+                <div class="device-tile" [ngClass]="{'disabled-tile': !device.connected||!device.active}">
+                    <div>
+                        <div *ngIf="device.connected" class="device-icon" (click)="toggleConnection(device)"><img src="../../assets/svg/device/{{device.type}}-connected.svg" alt="{{device.type}} connected"></div>
+                        <div *ngIf="!device.connected" class="device-icon" (click)="toggleConnection(device)"><img src="../../assets/svg/device/{{device.type}}-disconnected.svg" alt="{{device.type}} disconnected"></div>
+                        <div *ngIf="device.connected && device.active" class="device-switch" (click)="toggleSwitch(device)"><img src="../../assets/svg/device/switch-on.svg" alt="switch on"></div>
+                        <div *ngIf="device.connected && !device.active" class="device-switch" (click)="toggleSwitch(device)"><img src="../../assets/svg/device/switch-off.svg" alt="switch off"></div>
+                        <div *ngIf="!device.connected" class="device-switch" style="cursor:not-allowed"><span>OFFLINE</span></div>
+                    </div>
+                    <div *ngIf="device.connected && device.active" class="device-name">{{device.name}}</div>
+                    <div *ngIf="!device.connected ||!device.active" class="device-name-d">{{device.name}}</div>
+                    <div *ngIf="device.connected && device.active" class="device-desc">{{device.description}}</div>
+                    <div *ngIf="!device.connected ||!device.active" class="device-desc-d">{{device.description}}</div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <div class="device-tile-add" title="Add {{deviceCodes[code]}}">
+                    <img src="../../assets/svg/device/add-dark.svg" alt="Add {{deviceCodes[code]}}">
+                    <div class="add-text">Add {{deviceCodes[code]}}</div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>

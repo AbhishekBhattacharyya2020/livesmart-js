@@ -1,0 +1,24 @@
+<div [ngClass]="deviceListClass">
+    <div *ngIf="code.includes('c')" class="connector-count extender">1 LS Extender connected</div>
+    <div *ngIf="code.includes('h')" class="connector-count">1 LS Hub connected</div>
+    <ul class="device-group">
+        <li #devicesByType *ngFor="let device of connectorDevices">
+            <div *ngIf="code===device.type" class="device-grid-view" [ngClass]="code">
+                <div class="device-tile" [ngClass]="{'disabled-tile': !device.connected||!device.active, 'multi-sensor':device.lsdevice}">
+                    <div>
+                        <div *ngIf="device.lsdevice" class="device-icon"><img src="../../assets/svg/connector-devices/cpu-icon.svg" alt="{{device.type}} connected"></div>
+                        <div *ngIf="device.connected && !device.lsdevice" class="device-icon" (click)="toggleConnection(device)"><img src="../../assets/svg/device/{{device.devicetype}}-connected.svg" alt="{{device.devicetype}} connected"></div>
+                        <div *ngIf="!device.connected && !device.lsdevice" class="device-icon" (click)="toggleConnection(device)"><img src="../../assets/svg/device/{{device.devicetype}}-disconnected.svg" alt="{{device.devicetype}} disconnected"></div>
+                        <div *ngIf="device.connected && device.active && !device.lsdevice" class="device-switch" (click)="toggleSwitch(device)"><img src="../../assets/svg/device/switch-on.svg" alt="switch on"></div>
+                        <div *ngIf="device.connected && !device.active && !device.lsdevice" class="device-switch" (click)="toggleSwitch(device)"><img src="../../assets/svg/device/switch-off.svg" alt="switch off"></div>
+                        <div *ngIf="!device.connected" class="device-switch" style="cursor:not-allowed"><span>OFFLINE</span></div>
+                    </div>
+                    <div *ngIf="device.connected && device.active" class="device-name">{{device.name}}</div>
+                    <div *ngIf="!device.connected ||!device.active" class="device-name-d">{{device.name}}</div>
+                    <div *ngIf="device.connected && device.active" class="device-desc">{{device.description}}</div>
+                    <div *ngIf="!device.connected ||!device.active" class="device-desc-d">{{device.description}}</div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>

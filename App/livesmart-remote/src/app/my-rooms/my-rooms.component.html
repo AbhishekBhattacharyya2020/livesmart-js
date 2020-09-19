@@ -1,0 +1,14 @@
+<div class="my-devices">
+    <div class="total-devices"><span class="total-devices-text">{{totalExtenders}} Extender | {{totalRooms}} Rooms</span>
+
+    </div>
+    <router-outlet></router-outlet>
+    <div [ngClass]="deviceListClass">
+        <ul class="device-list">
+            <li *ngFor="let roomList of myRooms; index as i">
+                <h1 class="device-count">{{roomList.type}}({{deviceCounts[i]}})<span><a>View All</a></span></h1>
+                <app-connector-devices [code]="roomList.code"></app-connector-devices>
+            </li>
+        </ul>
+    </div>
+</div>
